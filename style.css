@@ -1,4 +1,50 @@
+:root {
+    --main-font-color: rgba(119, 110, 101, 1);
+    --secondary-font-color: rgba(249, 246, 242, 1);
+}
+
 body {
     margin: unset;
-    font-size: 14px;
+    font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+    color: var(--main-font-color);
 }
+
+.container {
+    width: 460px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-color: rgba(187, 173, 160, 1);
+}
+
+[class|="box"]{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(205, 193, 180, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-2 {
+    background-color: rgba(238, 228, 218, 1);
+}
+
+.box-4 {
+    background-color: rgba(238, 225, 201, 1);
+}
+
+.box-8 {
+    background-color: rgba(243, 178, 122, 1);
+    color: var(--secondary-font-color);
+}
+
+.box-16 {
+    background-color: rgba(246, 150, 100, 1);
+    color: var(--secondary-font-color);
+}
+
