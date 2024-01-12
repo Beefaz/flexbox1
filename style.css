@@ -9,6 +9,7 @@ body {
     font-size: 60px;
     font-weight: 600;
     color: var(--main-font-color);
+    background-color: rgba(255, 255, 255, 1);
 }
 
 .container {
@@ -21,7 +22,7 @@ body {
     background-color: rgba(187, 173, 160, 1);
 }
 
-[class|="box"]{
+[class|="box"] {
     width: 100px;
     height: 100px;
     background-color: rgba(205, 193, 180, 1);
