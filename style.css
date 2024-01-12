@@ -11,6 +11,12 @@ body {
     color: var(--main-font-color);
     background-color: rgba(255, 255, 255, 1);
 }
+main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
 .container {
     width: 460px;
